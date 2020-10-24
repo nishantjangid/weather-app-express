@@ -1,0 +1,40 @@
+  {{>headerLinks}}
+
+  {{>navbar}}
+
+
+    <!-- main page section -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row flex-column">
+                    <div class="main_content">
+                        <form action="" class="temp_form">
+                            <input type="text"  placeholder="Enter Your City Name" id="cityName" autocomplete="off">
+                            <input type="submit" value="Search" id="submitBtn">
+                        </form>
+                    </div>
+                    <div class="tempInformation">
+                        <div class="top_layer">
+                            <p id="day">Tuesday</p>
+                            <p id="today_date">13 Oct</p>
+                        </div>
+                        <div class="main_layer">
+                            <p id="city_name">Get output here</p>
+                            <div class="middle_layer data_hide">
+                                <p ><span id="temp">0</span> <sup>o</sup>C</p>
+                                <p id="temp_status"><i class="fa fa-cloud"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- main page section -->
+<script src="js/main.js"></script>
+    <!-- footer section -->
+      {{>footer}}
+    <!-- footer section -->
+
+  
